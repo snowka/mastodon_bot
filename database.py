@@ -1,0 +1,7 @@
+dict = {
+    0: ["Charles Gildon", "Daniel Defoe", "when I found that you were not content with the many Absurdities of your Tale, but seem’d to discover a Design, which proves you as bad an Englishman as a Christian, I could not but take Notice", False],
+    1: ["Charles Gildon", "Daniel Defoe", "You are like the Devil in Milton, that could not tell the Offspring of his own Brain, Sin and Death, till Madam Sin discover’d to him who they were. Yes, it is Crusoe and his Man Friday, who are come to punish thee now, for making us such Scoundrels in thy Writing: Come Friday, make ready, but don’t shoot till I give the Word.", False],
+    2: ["Charles Gildon", "Daniel Defoe", "All that I shall remark, is, that you seem very fond of all Occasions of throwing in needless Absurdities to make the Truth of your Story still the more doubted.", False],
+    3: ["Charles Gildon", "Daniel Defoe", "Love makes every one, who is possess’d by it, afraid of being guilty of any Thoughts or Actions, which may be displeasing or offensive to the Object belov’d; and this you would be very sensible of, if in all your Life you had ever lov’d any thing better than yourself.", False],
+    4: ["Daniel Defoe", "Charles Gildon", "Gildon writes satyrs, rails at blasphemy, / and his next page lampoons the Deity; / exposes his Darinda's vitious life, / Oi! But keeps six Whores, and starves his modest Wife; / for a reformer of the town, / himself a first rate rake below lampoon.", False],
+}
