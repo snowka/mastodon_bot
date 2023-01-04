@@ -28,8 +28,8 @@ def post():
     spoiler_text: str, optional
         The string you pass in for this parameter will be shown as part of a content warning.
     """
-
-    for postNum in range(5):
+    #Change the number in the range function below to match the number of posts in database.
+    for postNum in range(16):
         if authors_and_quotes[postNum][3] == False:
             mastodon.status_post(authors_and_quotes[postNum][0] + " on " + authors_and_quotes[postNum][1]+": " +
                          authors_and_quotes[postNum][2] + " @snowka@scholar.social", sensitive=True, visibility="direct",
@@ -78,7 +78,7 @@ mastodon = Mastodon(
 )
 
 # For testing purposes -- posts frequently to see if everything is working
-schedule.every(5).seconds.do(post)
+schedule.every(2).days.do(post)
 # For posting on a regular schedule
 # schedule.every(2).days.at("11:00").do(post)
 
