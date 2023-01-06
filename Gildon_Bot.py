@@ -34,7 +34,7 @@ def post():
             mastodon.status_post(authors_and_quotes[postNum][0] + " on " + authors_and_quotes[postNum][1]+": " +
                          authors_and_quotes[postNum][2] + " @snowka@scholar.social", sensitive=True, visibility="direct",
                          spoiler_text="Eighteenth-Century Literary Snark")
-            # This update the quote to True--it has been posted.
+            # This updates the quote to True--it has been posted.
             authors_and_quotes[postNum][3] = True
             return
         else:
@@ -59,12 +59,12 @@ def post():
 #         The string you pass in for this parameter will be shown as part of a content warning.
 #     """
 #
-#     for postNum in range(5):
+#     for postNum in range(16):
 #         if authors_and_quotes[postNum][3] == False:
 #             mastodon.status_post(authors_and_quotes[postNum][0] + " on " + authors_and_quotes[postNum][1] + ": " +
 #                                  authors_and_quotes[postNum][2], sensitive=True, visibility="public",
 #                                  spoiler_text="Eighteenth-Century Literary Snark")
-#             # This update the quote to True--it has been posted.
+#             # This updates the quote to True--it has been posted.
 #             authors_and_quotes[postNum][3] = True
 #             return
 #         else:
